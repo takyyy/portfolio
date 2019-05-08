@@ -1,8 +1,22 @@
 <template>
   <div id="app">
+    <Navber></Navber>
     <router-view/>
   </div>
 </template>
+
+<script>
+  import Navber from './components/Navber'
+
+  export default {
+  name: 'App',
+  components: {
+    Navber
+  },
+}
+
+</script>
+
 
 <style>
 #app {
