@@ -1,6 +1,6 @@
 <template>
     <div class="shadow">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
             <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto m-2">
                 <li class="nav-item">
@@ -23,3 +23,11 @@
         </nav>
     </div>
 </template>
+
+<style scoped>
+
+nav{
+    background-color:#263238
+}
+
+</style>
